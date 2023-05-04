@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regressionsuite" thread-count="5" parallel="tests">
+	<test name="feature1">
+		<classes>
+			<class name="TestngBasics.BrowserLaunch"></class>
+			<class name="TestngBasics.LauchEdgeBrowser"></class>
+		</classes>
+		</test>
+		<test name="feature2">
+			<classes>
+			<class name="TestngBasics.WindowExample"></class>
+			<class name="TestngBasics.LauchEdgeBrowser"></class>
+			</classes>
+		</test>
+</suite>
